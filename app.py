@@ -9,7 +9,7 @@ spec.register(app)
 
 @app.route('/')
 def index():
-    return '<h1>Hello World!</h1>'
+    return '<h1>Atividade de revisão</h1>'
 
 @app.route('/imc/<peso>/<altura>')
 def imc(peso, altura):
